@@ -1,0 +1,20 @@
+{
+  "enabledPlugins": {
+    "game-design@gamedev-claude-plugins": true,
+    "multiplayer@gamedev-claude-plugins": true,
+    "engineering@gamedev-claude-plugins": true,
+    "narrative@gamedev-claude-plugins": true,
+    "ui-ux@gamedev-claude-plugins": true,
+    "audio@gamedev-claude-plugins": true,
+    "juice@gamedev-claude-plugins": true,
+    "scope-guardian@gamedev-claude-plugins": true
+  },
+  "extraKnownMarketplaces": {
+    "gamedev-claude-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "sponticelli/gamedev-claude-plugins"
+      }
+    }
+  }
+}

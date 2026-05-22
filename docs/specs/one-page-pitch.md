@@ -1,5 +1,7 @@
 # 칠판 위의 저주 (Cursed Classroom)
-**Genre:** Social Deduction / Mafia | **Platform:** 미정 (Web/Mobile/PC) | **Players:** 4~6명 실시간 온라인
+**Genre:** Social Deduction / Mafia | **Platform:** 웹 우선 (+ 디스코드 액티비티 검토) | **Players:** 5~6명 실시간 온라인 (4인은 별도 캐주얼 모드)
+
+> 최신 설계 기준은 `2026-05-22-cursed-classroom-design.md`(v2). 이 피치도 v2에 맞춰 갱신됨.
 
 ---
 
@@ -24,7 +26,7 @@
 
 **Players should feel:** "방금까지 같은 편이었던 친구가 진짜 같은 편인지 확신할 수 없는" 서서히 무너지는 신뢰
 
-**A moment that defines the game:** 2라운드 끝, 화면이 글리치되며 칠판에 내 이름이 적히는 것을 보는 순간 — "아... 내가 걸렸구나." 지금까지의 무고한 주장이 다음 라운드부터 거짓말이 된다.
+**A moment that defines the game:** 어느 라운드의 끝, 화면이 글리치되며 칠판에 내 이름이 적히는 것을 보는 순간 — "아... 내가 걸렸구나." 지금까지의 무고한 주장이 다음 라운드부터 거짓말이 된다. (단, 게임은 이 순간을 "패배"가 아니라 "각성"으로 연출한다 — v2 §9.2)
 
 ---
 
@@ -53,6 +55,6 @@
 ---
 
 ## SCOPE INDICATOR
-**Estimated Content:** 코어 게임모드 1개, 역할 4종, 4~6인 밸런싱
+**Estimated Content:** 코어 게임모드 1개, 역할 4종(반장·보건위원·도서부원·목격자), 5~6인 밸런싱
 **Team Size:** 팀 프로젝트 (소규모)
 **Complexity:** Medium — 실시간 멀티플레이어 + 상태 동기화 필요, but 물리/그래픽 복잡도는 낮음

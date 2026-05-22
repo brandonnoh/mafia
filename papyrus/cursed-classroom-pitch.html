@@ -841,13 +841,13 @@ a.footnote-ref::after {
     <h2>코어 게임플레이</h2>
     <p>게임의 무게중심은 감염이다. 적을 죽이는 것이 아니라 아군을 적으로 바꾼다. 내 편이 매 라운드 줄어드는 공포가 핵심 재미다.</p>
 <h3>게임 루프</h3>
-<div class="papyrus-mermaid-wrap papyrus-mermaid--vertical"><pre class="mermaid">flowchart TD
-    A[게임 시작 · 최초 저주 지정] --> B[낮 · 토론과 투표 퇴학]
-    B --> C[밤 · 감염과 검진, 역할 능력]
-    C --> D[징조 단계 · 감염자가 1라운드 동안 사냥 대상]
-    D --> E[자각의 선택 · 받아들임 또는 저항]
-    E --> F{승리 조건 충족}
-    F -->|미충족| B
+<div class="papyrus-mermaid-wrap"><pre class="mermaid">flowchart LR
+    A[게임 시작] --> B[낮 · 토론과 퇴학]
+    B --> C[밤 · 감염과 검진]
+    C --> D[징조 단계]
+    D --> E[자각의 선택]
+    E --> F{승리 조건?}
+    F -->|계속| B
     F -->|충족| G[게임 종료]
 </pre></div>
 <h3>핵심 메커니즘</h3>
